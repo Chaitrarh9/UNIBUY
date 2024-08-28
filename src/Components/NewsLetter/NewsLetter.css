@@ -1,0 +1,86 @@
+.newsletter {
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.newsletter h1 {
+    color: #454545;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    color: #454545;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 650px;
+    height: 60px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+    width: 400px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.newsletter div button {
+    width: 155px;
+    height: 60px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .newsletter {
+        width: 80%; /* Adjust width for smaller screens */
+        padding: 0px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .newsletter h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .newsletter p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .newsletter div {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .newsletter input {
+        width: 70%; /* Adjust width for smaller screens */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .newsletter div button {
+        width: 30%; /* Adjust width for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
